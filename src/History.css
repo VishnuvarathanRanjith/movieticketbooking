@@ -1,0 +1,86 @@
+
+.history-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .BookingHistory {
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .empty-message {
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+  }
+  
+  .History-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .history-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .booking-info {
+    flex: 1;
+  }
+  
+  .qr-code {
+    margin-left: 20px;
+  }
+  .backtohome {
+    background-color: white; 
+    border: green 1px solid; 
+    color: green; 
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+  }
+  
+  .backtohome:hover {
+    background-color: #009a08;
+    color: white; 
+  }
+.clearhistory{
+    background-color:white; 
+    border: red 1px solid;
+    color: red; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    margin-left: 20rem;
+}  
+.clearhistory:hover{
+    background-color: red;
+    color: white;
+}
